@@ -32,7 +32,7 @@ This script is a test runner designed to automate testing of Python solutions fo
 1. Download test ZIP file from Stepik using `Архив с тестами` link and put it in the directory specified by `TESTS_ZIP_PATTERN`.
 2. Run the script from within the `pipenv` virtual environment:
    ```bash
-   python test_runner.py
+   python run_tests.py
    ```
 3. The script will:
    - Find the latest ZIP file matching the `TESTS_FOLDER_PATH` glob pattern.
