@@ -1,4 +1,4 @@
-# Test Runner for «Поколение Python» (Stepik)
+# Tests Runner for «Поколение Python» (Stepik)
 
 This script is a test runner designed to automate testing of Python solutions for «Поколение Python» courses on Stepik. It executes a solution file against a set of test cases provided in a ZIP file, compares the output with expected results, and displays the test results.
 
