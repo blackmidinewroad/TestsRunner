@@ -9,10 +9,17 @@ This script is a test runner designed to automate testing of Python solutions fo
    cd TestsRunner
    ```
 
-2. **Install Dependencies**:
-   ```shell
-   pipenv install
-   ```
+2. **Install Dependencies**
+   - Using pipenv:
+
+      ```shell
+      pipenv install
+      ```
+   - Using pip:
+   
+      ```shell
+      pip install -r requirements.txt
+      ```
 
 3. **Set Up Environment Variables**
 
@@ -28,7 +35,7 @@ This script is a test runner designed to automate testing of Python solutions fo
 ## Usage
 1. Download test ZIP file from Stepik using `Архив с тестами` link and put it in the directory specified by `TESTS_ZIP_PATTERN`.
 
-2. Run the script from within the `pipenv` virtual environment:
+2. Run the script:
    ```shell
    python run_tests.py
    ```
