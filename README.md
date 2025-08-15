@@ -1,6 +1,7 @@
 # Tests Runner for «Поколение Python» (Stepik)
 This script is a test runner designed to automate testing of Python solutions for «Поколение Python» courses on Stepik. It executes a solution file against a set of test cases provided in a ZIP file, compares the output with expected results, and displays the test results.
 
+
 ## Installation
 1. **Clone the Repository**:
    ```shell
@@ -23,6 +24,7 @@ This script is a test runner designed to automate testing of Python solutions fo
    - Replace `path/to/tests/*.zip` with the actual glob pattern (e.g., `C:/Users/JohnDoe/Downloads/*.zip`).
    - Replace `path/to/solution.py` with the actual path to your solution file (e.g., `C:/Users/JohnDoe/Documents/solution.py`).
 
+
 ## Usage
 1. Download test ZIP file from Stepik using `Архив с тестами` link and put it in the directory specified by `TESTS_ZIP_PATTERN`.
 
@@ -36,6 +38,7 @@ This script is a test runner designed to automate testing of Python solutions fo
    - Extract test cases and expected outputs.
    - Run your solution against each test.
    - Display results with pass/fail status, runtime, and detailed output for failed tests.
+
 
 ## Example Output
 ```
