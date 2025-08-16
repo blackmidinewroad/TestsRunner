@@ -5,8 +5,8 @@ This script is a test runner designed to automate testing of Python solutions fo
 ## Installation
 1. **Clone the Repository**:
    ```shell
-   git clone https://github.com/blackmidinewroad/TestsRunner.git
-   cd TestsRunner
+   git clone https://github.com/blackmidinewroad/tests-runner.git
+   cd tests-runner
    ```
 
 2. **Install Dependencies**
